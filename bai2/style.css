@@ -1,0 +1,135 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3e5fc;
+    color: #005b99;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #b3e5fc;
+    text-align: left;
+    padding: 15px 0;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #005b99;
+    font-size: 18px;
+}
+
+
+/* Title and description */
+
+h1 {
+    text-align: center;
+    color: #005b99;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+p.description {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+    font-size: 16px;
+}
+
+
+/* Main container for the form and image */
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+
+/* Form styling */
+
+.registration-form {
+    width: 45%;
+    background-color: #e1f5fe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #005b99;
+    font-weight: bold;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #005b99;
+    border-radius: 5px;
+}
+
+.registration-form .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration-form button {
+    width: 48%;
+    padding: 10px;
+    background-color: #005b99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #004080;
+}
+
+
+/* Image styling */
+
+.image-container {
+    width: 45%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Footer text */
+
+.footer-text {
+    
+    margin: 30px auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Footer styling */
+
+.footer {
+    text-align: center;
+    background-color: #b3e5fc;
+    padding: 20px;
+    font-size: 14px;
+    color: #005b99;
+}
+
+.footer p {
+    margin: 5px 0;
+}
